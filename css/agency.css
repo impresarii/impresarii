@@ -40,7 +40,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #f66d65;
+  color: #fed974;
 }
 h1,
 h2,
@@ -69,8 +69,8 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #f66d65;
-  border-color: #f66d65;
+  background-color: #fed974;
+  border-color: #fed974;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -112,7 +112,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-artiste {
-  color: #f66d65;
+  color: #fed974;
   text-transform: uppercase;
   background-color: white;
   border: 3px solid white;
@@ -143,8 +143,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-organisateur {
   color: white;
   text-transform: uppercase;
-  background-color: #f66d65;
-  border: 3px solid #f66d65;
+  background-color: #fed974;
+  border: 3px solid #fed974;
   position: relative;
   display: inline-block;
   margin-top: 50px;
@@ -239,13 +239,13 @@ fieldset[disabled] .btn-xl.active {
   border-color: #9054dd;
 }
 .btn-xl .badge {
-  color: #f66d65;
+  color: #fed974;
   background-color: white;
 }
 .btn-xl2 {
   color: white;
   background-color: transparent;
-  border: 3px solid #f66d65;
+  border: 3px solid #fed974;
   text-transform: uppercase;
   position: relative;
   display: inline-block;
@@ -273,7 +273,7 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl2.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #f66d65;
+  background-color: #fed974;
 
 }
 .btn-xl2:active,
@@ -335,7 +335,7 @@ margin-left: 0px;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #f66d65;
+  color: #fed974;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
@@ -601,7 +601,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #f66d65;
+  background-color: #fed974;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -959,9 +959,9 @@ img::-moz-selection {
 /** CTA conso **/
 
 .btn-testou {
-color: #f66d65 !important;
+color: #fed974 !important;
 background-color: transparent;
-border: 1px solid #f66d65;
+border: 1px solid #fed974;
 border-radius: 6px;
 border-spacing: 5px;
 -webkit-transition: 0.3s;
@@ -979,8 +979,8 @@ transition: 0.3s;
 .btn-testou:hover {
 border: none;
 color: white !important;
-background-color: #f66d65 !important;
-border: 1px solid #f66d65;
+background-color: #fed974 !important;
+border: 1px solid #fed974;
 border-radius: 6px;
 border-spacing: 5px;
 
@@ -1068,7 +1068,7 @@ background-color:  white;
 
 
 .form-required {
-  color: #f66d65;
+  color: #fed974;
 }
 
 .form-section {
