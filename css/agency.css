@@ -172,8 +172,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   color: white;
   text-transform: uppercase;
-  background-color: #a472f1 ;
-  border: 3px solid #a472f1 ;
+  background-color: #6248d7 ;
+  border: 3px solid #6248d7 ;
   position: relative;
   display: inline-block;
   margin-right: 5px;
@@ -210,7 +210,7 @@ margin-right: 0px;
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: #a472f1 ;
+  color: #6248d7 ;
   background-color: white;
   border: 3px solid white;
 
@@ -292,7 +292,7 @@ margin-left: 0px;
 }
 }
 .navbar-custom {
-  background-color: #ffce46;
+  background-color: white;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -970,9 +970,10 @@ transition: 0.3s;
 
 }
 
-.navbar-custom.affix .btn-testou li a {
+.navbar-custom.affix .btn-testou {
 
-  color: white !important;
+  color: #6248d7 !important;
+  border: 1px solid #6248d7;
 
 }
 
@@ -980,7 +981,17 @@ transition: 0.3s;
 border: none;
 color: white !important;
 background-color: #ffce46 !important;
-border: 1px solid #ffce46;
+border: 1px solid #ffce46 !important;
+border-radius: 0px;
+border-spacing: 5px;
+
+}
+
+.navbar-custom.affix .btn-testou:hover {
+border: none;
+color: white !important;
+background-color: #ffce46 !important;
+border: 1px solid #ffce46 !important;
 border-radius: 0px;
 border-spacing: 5px;
 
@@ -991,8 +1002,8 @@ border-spacing: 5px;
 .btn-testou2 {
 color: white !important;
 margin-right: 10px;
-background-color: #a472f1;
-border: 1px solid #a472f1;
+background-color: #6248d7;
+border: 1px solid #6248d7;
 border-radius: 0px;
 border-spacing: 5px;
 -webkit-transition: 0.3s;
@@ -1001,11 +1012,6 @@ transition: 0.3s;
 
 }
 
-.navbar-custom.affix .btn-testou li a {
-
-  color: black !important;
-
-}
 
 .btn-testou2:hover {
 border: none;
