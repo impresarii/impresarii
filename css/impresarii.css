@@ -151,6 +151,11 @@ fieldset[disabled] .btn-primary.active {
   }
 }
 
+.star:hover .fa-star:before{
+
+  color: white !important;
+}
+
 .btn-organisateur {
   color: white;
   text-transform: uppercase;
