@@ -42,15 +42,17 @@
 <script src="https://js.jotform.com/vendor/postMessage.js?3.3.16940" type="text/javascript"></script>
 <script src="https://js.jotform.com/WidgetsServer.js?v=1485759590642" type="text/javascript"></script>
 <script type="text/javascript">
+   JotForm.setConditions([{"action":[{"id":"action_1485868274600","visibility":"Show","isError":false,"field":"10"}],"id":"1485868289902","index":"0","link":"Any","priority":"0","terms":[{"id":"term_1485868274600","field":"8","operator":"equals","value":"Autre","isError":false}],"type":"field"}]);
    JotForm.init(function(){
       setTimeout(function() {
-          $('input_6').hint(' ex : monemail@email.com');
+          $('input_6').hint('ex: monemail@email.com');
        }, 20);
-      JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","email":"Entrez une adresse e-mail valide","incompleteFields":"Merci de remplir tous les champs :)","lessThan":"Your score should be less than","numeric":"This field can only contain numeric values","pleaseWait":"Please wait...","required":"This field is required.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
+      JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","email":"Enter a valid e-mail address","incompleteFields":"There are incomplete required fields. Please complete them.","lessThan":"Your score should be less than","numeric":"This field can only contain numeric values","pleaseWait":"Please wait...","required":"This field is required.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
 	JotForm.clearFieldOnHide="disable";
 	JotForm.onSubmissionError="jumpToFirstError";
    });
 </script>
+
 
 <!-- Chat -->
 <script type="text/javascript">
@@ -145,6 +147,10 @@ $crisp=[];CRISP_WEBSITE_ID="6036e2af-a623-4637-8d79-42edac5ff07b";(function(){d=
             <div class="row text-center">
               <button type="button" class="btn btn-organisateur btn-lg">Je m'inscris</button>
             </div>
+              <div class="row text-center">
+                <p class="text-muted" style="color: #6248d7; padding-top: 30px; font-size: 11pt; font-weight: bold">Toutes vos rencontres artistiques sont garanties et assurées par</p>
+                  <img src="https://res.cloudinary.com/hopwork/image/upload/axa_logo.svg" alt="Logo AXA" style="width:75px"/>
+              </div>
     </section>
 
     <!-- Artistes -->
@@ -181,7 +187,7 @@ $crisp=[];CRISP_WEBSITE_ID="6036e2af-a623-4637-8d79-42edac5ff07b";(function(){d=
           </div>
           <div class="row text-center">
             <button type="button" class="btn btn-artiste btn-lg"  data-toggle="modal" data-target="#myModal">Je crée <strong>gratuitement</strong> mon profil</button>
-            </div>
+            <p class="text-muted" style="color: #d4c5ff; font-size: 10pt; padding-top:10px;">Et cela prend moins d'1 minute !</div>
         </div>
     </section>
 
@@ -198,7 +204,7 @@ $crisp=[];CRISP_WEBSITE_ID="6036e2af-a623-4637-8d79-42edac5ff07b";(function(){d=
                 </div>
                 <div class="modal-body bg-violet">
                     <div class="row">
-                        <div class="col-md-12" style="border-right: 1px dotted #C2C2C2; top: 0px !important;">
+                        <div class="col-md-12" style="top: 0px !important;">
                           <div class="col-lg-offset-2 col-lg-8">
                             <h1 id="header_1" class="form-header2" data-component="header">
                             Créez maintenant votre profil et participez au lancement de <strong style="color: white">la version privée</strong>.
@@ -206,64 +212,11 @@ $crisp=[];CRISP_WEBSITE_ID="6036e2af-a623-4637-8d79-42edac5ff07b";(function(){d=
                         </div>
                           <div class="col-lg-offset-2 col-lg-8">
                             <!-- Tab panes -->
-                            <form class="jotform-form" action="https://submit.jotformeu.com/submit/70291221634347/" method="post" name="form_70291221634347" id="70291221634347" accept-charset="utf-8">
-      <input type="hidden" name="formID" value="70291221634347" />
-      <div class="form-all">
-        <ul class="form-section page-section">
-          <li class="form-line" data-type="control_widget" id="id_9">
-            <div id="cid_9" class=" jf-required">
-              <div style="width:100%;text-align:Left;" data-component="widget-directEmbed">
-                <div class="direct-embed-widgets widget-static" data-type="direct-embed" style="width:1px;height:1px;">
-                  <script type="text/javascript" src="https://widgets.jotform.io/mobileResponsive/mobile.responsive.js"></script>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="form-line jf-required" data-type="control_textbox" id="id_7">
-            <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7">
-              Votre nom
-              <span class="form-required">
-                *
-              </span>
-            </label>
-            <div id="cid_7" class="form-input-wide jf-required">
-              <input type="text" id="input_7" name="q7_votreNom" data-type="input-textbox" class="form-textbox validate[required]" size="20" value="" placeholder=" " data-component="textbox" />
-            </div>
-          </li>
-          <li class="form-line jf-required" data-type="control_dropdown" id="id_8">
-            <label class="form-label form-label-top form-label-auto" id="label_8" for="input_8" >
-              Votre talent ?
-              <span class="form-required">
-                *
-              </span>
-            </label>
-            <div id="cid_8" class="form-input-wide jf-required">
-              <select class="form-dropdown validate[required]" id="input_8" name="q8_votreGenre" style="height: 30px; border-radius: 15px;" data-component="dropdown">
-                <option value="" disabled="disabled"> Chanteur ? DJ ?</option>
-                <option value=" Musicien(ne)"> Musicien(ne) </option>
-                <option value=" Groupe"> Groupe </option>
-                <option value=" DJ"> DJ </option>
-                <option value=" Danseur(euse)"> Danseur(euse) </option>
-                <option value=" Comédien(ne)"> Comédien(ne) </option>
-                <option value=" Arts du cirque et de la rue"> Arts du cirque et de la rue </option>
-              </select>
-            </div>
-          </li>
-          <li class="form-line jf-required" data-type="control_email" id="id_6">
-            <label class="form-label form-label-top form-label-auto" id="label_6" for="input_6">
-              Votre e-mail
-              <span class="form-required">
-                *
-              </span>
-            </label>
-            <div id="cid_6" class="form-input-wide jf-required">
-              <input type="email" id="input_6" name="q6_votreEmail" class="form-textbox validate[required, Email]" size="30" value="" placeholder="ex: monemail@email.com" data-component="email" />
-            </div>
-          </li>
-            </div>
+                            <script type="text/javascript" src="https://form.jotformeu.com/jsform/70291221634347"></script>
+                            <script type="text/javascript">JotForm.ownerView=true;</script><script type="text/javascript">JotForm.forwardToEu=true;</script>
             <div class="col-lg-12 text-center" style="margin-top:-30px; padding-bottom: 30px;">
             <button id="input_2" type="submit" class="btn-artiste text-center" data-component="button">
-              C&#x27;est parti !
+              J'en suis !
             </button>
           </div>
                   </div>
