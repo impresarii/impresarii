@@ -13,7 +13,7 @@ body {
   margin-bottom: 20px;
 }
 .text-muted-violet {
-  color:#d4c5ff;
+  color:#6248d7;
 }
 .text-primary {
   color: #fae188;
@@ -34,7 +34,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #9054dd;
+  color: #6248d7;
 }
 a:hover,
 a:focus,
@@ -114,8 +114,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-artiste {
   color: white;
   text-transform: uppercase;
-  background-color: #ffce46;
-  border: 3px solid #ffce46;
+  background-color: transparent;
+  border: 3px solid white;
   position: relative;
   display: inline-block;
   margin-top: 50px;
@@ -127,10 +127,21 @@ fieldset[disabled] .btn-primary.active {
   -moz-border-radius: 3px;
   font-size: 15px;
   padding: 12px 20px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
   -webkit-box-shadow: 0px 2px 10px 3px rgba(0, 0, 120, 0.2);
   -moz-box-shadow: 0px 2px 10px 3px rgba(0, 0, 120, 0.2);
   box-shadow: 0px 2px 10px 3px rgba(0, 0, 120, 0.2);
 }
+
+.btn-artiste:hover {
+
+  color: #6248d7;
+  background-color: white;
+
+}
+
 
 @media (max-width: 400px) {
   .btn-artiste  {
@@ -143,8 +154,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-organisateur {
   color: white;
   text-transform: uppercase;
-  background-color: #ffce46;
-  border: 3px solid #ffce46;
+  background-color: #6248d7;
+  border: 3px solid #6248d7;
   position: relative;
   display: inline-block;
   margin-top: 50px;
@@ -159,6 +170,14 @@ fieldset[disabled] .btn-primary.active {
   -webkit-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-organisateur:hover {
+
+  color: white;
+  background-color: #ffce46;
+  border: 3px solid #ffce46;
+
 }
 
 @media (max-width: 400px) {
