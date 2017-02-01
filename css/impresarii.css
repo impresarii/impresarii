@@ -427,11 +427,11 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  -webkit-animation:250s scroll infinite linear;
-  -moz-animation:250s scroll infinite linear;
-  -o-animation:250s scroll infinite linear;
-  -ms-animation:250s scroll infinite linear;
-  animation:250s scroll infinite linear;
+  -webkit-animation:500s scroll infinite linear;
+  -moz-animation:500s scroll infinite linear;
+  -o-animation:500s scroll infinite linear;
+  -ms-animation:500s scroll infinite linear;
+  animation:500s scroll infinite linear;
   top:0;
   left:0;
   width:100%;
