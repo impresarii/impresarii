@@ -11,7 +11,7 @@ body {
   margin-bottom: 20px;
 }
 .text-muted-violet {
-  color:#6248d7;
+  color:#ff0000;
 }
 .text-primary {
   color: #fae188;
@@ -32,7 +32,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #6248d7;
+  color: #ff0000;
 }
 a:hover,
 a:focus,
@@ -57,7 +57,7 @@ h6 {
   background-color: #eeeeee;
 }
 .bg-violet {
-  background-color: #6248d7;
+  background-color: #ff0000;
 }
 .bg-rose {
   background-color: #ef7f79;
@@ -137,7 +137,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-artiste:hover {
 
-  color: #6248d7 !important;
+  color: #ff0000 !important;
   background-color: white;
 
 }
@@ -159,8 +159,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-organisateur {
   color: white;
   text-transform: uppercase;
-  background-color: #6248d7;
-  border: 3px solid #6248d7;
+  background-color: #ff0000;
+  border: 3px solid #ff0000;
   position: relative;
   display: inline-block;
   margin-top: 50px;
@@ -199,8 +199,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   color: white;
   text-transform: uppercase;
-  background-color: #6248d7 ;
-  border: 3px solid #6248d7 ;
+  background-color: #ff0000 ;
+  border: 3px solid #ff0000 ;
   position: relative;
   display: inline-block;
   margin-right: 5px;
@@ -270,7 +270,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .btn-xl2 {
-  color: #6248d7;
+  color: #ff0000;
   background-color: white;
   border: 3px solid white;
   text-transform: uppercase;
@@ -1002,8 +1002,8 @@ transition: 0.3s;
 
 .navbar-custom.affix .btn-testou {
 
-  color: #6248d7 !important;
-  border: 1px solid #6248d7;
+  color: #ff0000 !important;
+  border: 1px solid #ff0000;
 
 }
 
@@ -1032,8 +1032,8 @@ border-spacing: 5px;
 .btn-testou2 {
 color: white !important;
 margin-right: 10px;
-background-color: #6248d7;
-border: 1px solid #6248d7;
+background-color: #ff0000;
+border: 1px solid #ff0000;
 border-radius: 6px;
 border-spacing: 5px;
 -webkit-transition: 0.3s;
@@ -1045,7 +1045,7 @@ transition: 0.3s;
 
 .btn-testou2:hover {
 border: none;
-color: #6248d7 !important;
+color: #ff0000 !important;
 background-color: white;
 border: 1px solid white;
 border-radius: 6px;
