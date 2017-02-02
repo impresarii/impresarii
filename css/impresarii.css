@@ -57,7 +57,11 @@ h6 {
   background-color: #eeeeee;
 }
 .bg-violet {
-  background-color: #6248d7;
+  background-color: #6248d7
+   background: -webkit-linear-gradient(left top, #6248d7, #917deb); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #6248d7, #917deb); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #6248d7, #917deb); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #6248d7, #917deb); /* Standard syntax */
 }
 .bg-rose {
   background-color: #ef7f79;
