@@ -411,7 +411,7 @@ margin-left: 0px;
   }
 
   .navbar-custom.affix .nav li a  {
-    color: #333;
+    color: #666;
   }
 
   .navbar-custom.affix .nav li a:active  {
@@ -779,6 +779,22 @@ section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px;
 }
+
+section#orga .form-group input,
+section#orga .form-group textarea {
+  padding: 13px;
+  width: 350px;
+}
+
+section#orga .form-group input.form-control {
+height: auto;
+}
+
+section#orga .form-control:focus {
+  border-color: #6248d7;
+  box-shadow: none;
+}
+
 section#contact .form-group input.form-control {
   height: auto;
 }
@@ -789,27 +805,27 @@ section#contact .form-control:focus {
   border-color: #9054dd;
   box-shadow: none;
 }
-section#contact ::-webkit-input-placeholder {
+section#orga ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
-section#contact :-moz-placeholder {
+section#orga :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
-section#contact ::-moz-placeholder {
+section#orga  ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
-section#contact :-ms-input-placeholder {
+section#orga  :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
