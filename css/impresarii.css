@@ -57,11 +57,18 @@ h6 {
   background-color: #eeeeee;
 }
 .bg-violet {
-  background-color: #6248d7;;
+  background-color: #6248d7;
    background: -webkit-linear-gradient(left top, #6248d7, #917deb); /* For Safari 5.1 to 6.0 */
    background: -o-linear-gradient(bottom right, #6248d7, #917deb); /* For Opera 11.1 to 12.0 */
    background: -moz-linear-gradient(bottom right, #6248d7, #917deb); /* For Firefox 3.6 to 15 */
    background: linear-gradient(to bottom right, #6248d7, #917deb); /* Standard syntax */
+}
+.bg-bleu {
+  background-color: #ffa146;
+   background: -webkit-linear-gradient(left top, #ffa146, #ffce46); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #ffa146, #ffce46); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #ffa146, #ffce46); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #ffa146, #ffce46); /* Standard syntax */
 }
 .bg-rose {
   background-color: #ef7f79;
@@ -187,8 +194,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-organisateur:hover {
 
   color: white;
-  background-color: #ffce46;
-  border: 3px solid #ffce46;
+  background-color: #8b71ff;
+  border: 3px solid #8b71ff;
 
 }
 
@@ -242,8 +249,8 @@ margin-right: 0px;
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white ;
-  background-color: #ffce46;
-  border: 3px solid #ffce46;
+  background-color: #8b71ff;
+  border: 3px solid #8b71ff;
 
 }
 .btn-xl:active,
@@ -788,7 +795,24 @@ section#orga .form-group input,
 section#orga .form-group textarea {
   padding: 13px;
   width: 350px;
+  -webkit-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
 }
+
+    @media (max-width: 400px) {
+
+    section#orga .form-group input,
+    section#orga .form-group textarea {
+      padding: 13px;
+      width: 250px;
+      -webkit-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
+
+    }
+
+  }
 
 section#orga .form-group input.form-control {
 height: auto;
@@ -1065,12 +1089,31 @@ transition: 0.3s;
 
 .btn-testou2:hover {
 border: none;
-color: #6248d7 !important;
-background-color: white;
-border: 1px solid white;
+color: white !important;
+background-color: #8b71ff;
+border: 1px solid #8b71ff;
 border-radius: 6px;
 border-spacing: 5px;
 
+}
+
+/** Mise en forme texte orga **/
+
+.text-orga {
+
+font-size: 12pt;
+text-align: left;
+padding: 0 50px;
+margin-top: -25px
+}
+
+@media (max-width: 400px) {
+
+.text-orga {
+
+  padding: 0 !important;
+
+}
 }
 
 /** Test formulaire **/
