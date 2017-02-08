@@ -432,7 +432,7 @@ margin-left: 0px;
 
 }
 header {
-  background:url(http://impresarii.averousetsimay.com/img/fondtest.png);
+  background:url(http://impresarii.com/img/fondaccueil.png);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -494,7 +494,7 @@ section {
 }
 section h2.section-heading {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  color: #444;
   text-transform: none;
   font-size: 40px;
   margin-top: 0;
@@ -512,6 +512,7 @@ section h3.section-subheading {
   text-transform: none;
   font-weight: 400;
   margin-bottom: 75px;
+  color: #666;
 }
 @media (min-width: 768px) {
   section {
