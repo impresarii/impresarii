@@ -64,6 +64,7 @@ h6 {
   background-size: cover;
   -o-background-size: cover;
 }
+
 .bg-violet {
   background-color: #6248d7;
    background: -webkit-linear-gradient(left top, #6248d7, #917deb); /* For Safari 5.1 to 6.0 */
