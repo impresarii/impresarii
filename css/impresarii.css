@@ -56,6 +56,14 @@ h6 {
 .bg-light-gray {
   background-color: #eeeeee;
 }
+.bg-orga {
+  background:url(http://impresarii.com/img/fondorga.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 .bg-violet {
   background-color: #6248d7;
    background: -webkit-linear-gradient(left top, #6248d7, #917deb); /* For Safari 5.1 to 6.0 */
