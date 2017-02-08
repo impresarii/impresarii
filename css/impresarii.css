@@ -385,9 +385,9 @@ margin-right: 0px;
 .btn-xl-vert:active,
 .btn-xl-vert.active,
 .open .dropdown-toggle.btn-xl {
-  color: white ;
-  background-color: #8b71ff;
-  border: 3px solid #8b71ff;
+  color: #6248d7;
+  background-color: white;
+  border: 3px solid white;
 
 }
 
