@@ -63,6 +63,9 @@ h6 {
    background: -moz-linear-gradient(bottom right, #6248d7, #917deb); /* For Firefox 3.6 to 15 */
    background: linear-gradient(to bottom right, #6248d7, #917deb); /* Standard syntax */
 }
+.bg-violet-no-gradient {
+  background-color: #6248d7;
+}
 .bg-bleu {
   background-color: #ffa146;
    background: -webkit-linear-gradient(left top, #ffa146, #ffce46); /* For Safari 5.1 to 6.0 */
@@ -253,6 +256,7 @@ margin-right: 0px;
   border: 3px solid #8b71ff;
 
 }
+
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
@@ -329,6 +333,66 @@ margin-left: 0px;
   font-size: 12px;
     padding: 7px 14px;
 }
+}
+
+.btn-xl-vert {
+  color: white;
+  text-transform: uppercase;
+  background-color: #00cf70 ;
+  border: 3px solid #00cf70 ;
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  border-radius: 6px;
+  -webkit-border-radiuss: 3px;
+  -moz-border-radius: 6px;
+  font-size: 15px;
+  padding: 12px 20px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .btn-xl-vert{
+width: 100%;
+margin-bottom: 20px;
+margin-right: 0px;
+  font-size: 12px;
+    padding: 7px 14px;
+}
+}
+
+.btn-xl-vert:hover,
+.btn-xl-vert:focus,
+.btn-xl-vert:active,
+.btn-xl-vert.active,
+.open .dropdown-toggle.btn-xl {
+  color: white ;
+  background-color: #8b71ff;
+  border: 3px solid #8b71ff;
+
+}
+
+.btn-xl-vert:active,
+.btn-xl-vert.active,
+.open .dropdown-toggle.btn-xl-vert {
+  background-image: none;
+}
+
+.ombre {
+
+  -webkit-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
 }
 .navbar-custom {
   background-color: white;
@@ -838,27 +902,27 @@ section#orga ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #999;
 }
 section#orga :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #999;
 }
 section#orga  ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #999;
 }
 section#orga  :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #999;
 }
 section#contact .text-danger {
   color: #e74c3c;
