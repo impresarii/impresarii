@@ -310,19 +310,9 @@
     </footer>
 
     <!-- jQuery -->
-    <script type="text/javascript">
-    function downloadJSAtOnload() {
-    var element = document.createElement("script");
-    element.src = "vendor/jquery/jquery.min.js";
-    document.body.appendChild(element);
-    }
-    if (window.addEventListener)
-    window.addEventListener("load", downloadJSAtOnload, false);
-    else if (window.attachEvent)
-    window.attachEvent("onload", downloadJSAtOnload);
-    else window.onload = downloadJSAtOnload;
-    </script>
     
+    <script src="vendor/jquery/jquery.min.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
