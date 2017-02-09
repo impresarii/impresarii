@@ -415,6 +415,7 @@ margin-right: 0px;
   -moz-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
 }
+
 .navbar-custom {
   background-color: white;
   border-color: transparent;
@@ -586,6 +587,7 @@ section h2.section-heading {
   color: #666;
   text-transform: none;
   font-size: 40px;
+  font-weight: 300;
   margin-top: 0;
 }
 section h2.section-heading-white {
@@ -593,13 +595,38 @@ section h2.section-heading-white {
   color: #fff;
   text-transform: none;
   font-size: 40px;
+    font-weight: 300;
   margin-top: 0;
+}
+
+h2.section-heading-newsletter {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-transform: none;
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+@media (max-width: 500px) {
+
+  h2.section-heading-newsletter {
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #fff;
+      text-transform: none;
+      font-size: 26px;
+      padding-top: 20px;
+      margin top: 0;
+      margin-bottom: 30px;
+
+  }
 }
 section h3.section-subheading {
   font-size: 20px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-weight: 400;
+  font-weight: 300;
   color: #999;
 }
 @media (min-width: 768px) {
