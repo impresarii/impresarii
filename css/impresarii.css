@@ -304,8 +304,8 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .btn-xl2 {
-  color: #6248d7;
-  background-color: white;
+  color: white;
+  background-color: transparent;
   border: 3px solid white;
   text-transform: uppercase;
   position: relative;
@@ -333,9 +333,9 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl2:active,
 .btn-xl2.active,
 .open .dropdown-toggle.btn-xl {
-  color: white;
-  background-color: #8b71ff;
-  border: 3px solid #8b71ff;
+  color: #6248d7;
+  background-color: white;
+  border: 3px solid white;
 
 }
 .btn-xl2:active,
