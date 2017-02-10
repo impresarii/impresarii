@@ -482,11 +482,11 @@ margin-right: 0px;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #6248d7;
+  color: #ccc;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
-  color: #a472f1 !important;
+  color: #00cf70 !important;
   background-color: white;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
@@ -1211,6 +1211,7 @@ border-spacing: 5px;
 transition: 0.3s;
 text-transform: none !important;
 font-family: "Montserrat" !important;
+letter-spacing: normal !important;
 
 }
 
