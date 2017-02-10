@@ -1018,10 +1018,20 @@ footer a {
   font-weight: bold;
 }
 
+footer a.liens {
+  color: #d4c5ff !important;
+}
+
+
 footer a:hover {
   color: white;
   font-weight: bold;
-  text-decoration: underline;
+  color: #d4c5ff!important;
+
+}
+
+footer a.liens:hover {
+  color: white !important;
 }
 
 footer span.copyright {
@@ -1199,6 +1209,8 @@ border-spacing: 5px;
 -webkit-transition: 0.3s;
 -moz-transition: 0.3s;
 transition: 0.3s;
+text-transform: none !important;
+font-family: "Montserrat" !important;
 
 }
 
