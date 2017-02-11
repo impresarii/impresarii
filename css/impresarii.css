@@ -1,10 +1,18 @@
 /*!
  * impresarii
  */
+
+ html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
 body {
   overflow-x: hidden;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
