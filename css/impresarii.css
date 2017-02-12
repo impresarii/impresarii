@@ -516,7 +516,7 @@ margin-right: 0px;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
-  color: #00cf70 !important;
+  color: #6248d7 !important;
   background-color: white;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
@@ -560,7 +560,7 @@ margin-right: 0px;
   }
 
   .navbar-custom.affix .nav li a  {
-    color: #6248d7;
+    color: #333;
   }
 
   .navbar-custom.affix .nav li a:hover {
@@ -1298,6 +1298,11 @@ border-spacing: 5px;
 -webkit-transition: 0.3s;
 -moz-transition: 0.3s;
 transition: 0.3s;
+
+text-transform: none !important;
+font-family: "Montserrat" !important;
+letter-spacing: normal !important;
+
 
 }
 
