@@ -617,14 +617,14 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans",  Helvetica, Arial, sans-serif;
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 50px;
 
   }
   header .intro-text .intro-heading {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
@@ -635,7 +635,7 @@ section {
   padding: 100px 0;
 }
 section h2.section-heading {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #666;
   text-transform: none;
   font-size: 40px;
@@ -643,7 +643,7 @@ section h2.section-heading {
   margin-top: 0;
 }
 section h2.section-heading-white {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #fff;
   text-transform: none;
   font-size: 40px;
@@ -652,7 +652,7 @@ section h2.section-heading-white {
 }
 
 h2.section-heading-newsletter {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #fff;
   text-transform: none;
   font-size: 26px;
