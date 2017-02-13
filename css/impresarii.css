@@ -1182,11 +1182,13 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #9054dd;
+  color: white;
+  background: #8b71ff;
 }
 ::selection {
   text-shadow: none;
-  background: #9054dd;
+  color: white;
+  background: #8b71ff;
 }
 img::selection {
   background: transparent;
@@ -1254,10 +1256,21 @@ letter-spacing: normal !important;
 
     color: #6248d7 !important;
     border: 1px solid #6248d7;
-    position: inherit;
 
   }
 }
+
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 
 
 .navbar-custom.affix .btn-testou {
@@ -1451,5 +1464,5 @@ ul
 }
 
 body {
-  webkit-tap-highlight-color: #9054dd;
+  webkit-tap-highlight-color: #8b71ff;
 }
