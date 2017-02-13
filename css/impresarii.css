@@ -210,8 +210,9 @@ fieldset[disabled] .btn-primary.active {
 @media (max-width: 400px) {
   .btn-artiste  {
     padding:12px 15px;
-    font-size:90%;
+    font-size:80%;
     line-height: 1;
+    width: 90%;
   }
 }
 
