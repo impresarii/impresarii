@@ -287,6 +287,32 @@ fieldset[disabled] .btn-primary.active {
 
 }
 
+.btn-xl3 {
+  color: white;
+  text-transform: uppercase;
+  background-color: #8b71ff;
+  border: 3px solid #8b71ff;
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  border-radius: 6px;
+  -webkit-border-radiuss: 3px;
+  -moz-border-radius: 6px;
+  font-size: 15px;
+  padding: 12px 20px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.2);
+
+
+}
+
 @media screen and (max-width: 480px) {
   .btn-xl {
 width: 100%;
@@ -297,6 +323,15 @@ margin-right: 0px;
 }
 }
 
+@media screen and (max-width: 480px) {
+  .btn-xl3 {
+width: 100%;
+margin-bottom: 20px;
+margin-right: 0px;
+  font-size: 12px;
+    padding: 7px 14px;
+}
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -305,6 +340,17 @@ margin-right: 0px;
   color: white ;
   background-color: #8b71ff;
   border: 3px solid #8b71ff;
+
+}
+
+.btn-xl3:hover,
+.btn-xl3:focus,
+.btn-xl3:active,
+.btn-xl3.active,
+.open .dropdown-toggle.btn-xl {
+  color: #6248d7;
+  background-color: white;
+  border: 3px solid white
 
 }
 
