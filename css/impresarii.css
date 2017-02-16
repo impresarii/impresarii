@@ -33,7 +33,7 @@ body {
   margin-bottom: 20px;
 }
 .text-muted-violet {
-  color:#6248d7;
+  color:#784df5;
 }
 
 .text-muted-violet-clair {
@@ -61,7 +61,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #6248d7;
+  color: #784df5;
 }
 a:hover,
 a:focus,
@@ -107,14 +107,14 @@ h6 {
 
 
 .bg-violet {
-  background-color: #6248d7;
-   background: -webkit-linear-gradient(left top, #6248d7, #917deb); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(bottom right, #6248d7, #917deb); /* For Opera 11.1 to 12.0 */
-   background: -moz-linear-gradient(bottom right, #6248d7, #917deb); /* For Firefox 3.6 to 15 */
-   background: linear-gradient(to bottom right, #6248d7, #917deb); /* Standard syntax */
+  background-color: #784df5;
+   background: -webkit-linear-gradient(left top, #784df5, #917deb); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #784df5, #917deb); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #784df5, #917deb); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #784df5, #917deb); /* Standard syntax */
 }
 .bg-violet-no-gradient {
-  background-color: #6248d7;
+  background-color: #784df5;
 }
 .bg-bleu {
   background-color: #ffa146;
@@ -201,7 +201,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-artiste:hover {
 
-  color: #6248d7 !important;
+  color: #784df5 !important;
   background-color: white;
 
 }
@@ -224,8 +224,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-organisateur {
   color: white;
   text-transform: uppercase;
-  background-color: #6248d7;
-  border: 3px solid #6248d7;
+  background-color: #784df5;
+  border: 3px solid #784df5;
   position: relative;
   display: inline-block;
   margin-top: 50px;
@@ -264,8 +264,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   color: white;
   text-transform: uppercase;
-  background-color: #6248d7 ;
-  border: 3px solid #6248d7 ;
+  background-color: #784df5 ;
+  border: 3px solid #784df5 ;
   position: relative;
   display: inline-block;
   margin-right: 5px;
@@ -290,8 +290,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl3 {
   color: white;
   text-transform: uppercase;
-  background-color: #8b71ff;
-  border: 3px solid #8b71ff;
+  background-color: #784df5;
+  border: 3px solid #784df5;
   position: relative;
   display: inline-block;
   margin-right: 5px;
@@ -350,7 +350,7 @@ margin-right: 0px;
 .btn-xl3:active,
 .btn-xl3.active,
 .open .dropdown-toggle.btn-xl {
-  color: #6248d7;
+  color: #784df5;
   background-color: white;
   border: 3px solid white
 
@@ -413,7 +413,7 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl2:active,
 .btn-xl2.active,
 .open .dropdown-toggle.btn-xl {
-  color: #6248d7;
+  color: #784df5;
   background-color: white;
   border: 3px solid white;
 
@@ -475,7 +475,7 @@ margin-right: 0px;
 .btn-xl-vert:active,
 .btn-xl-vert.active,
 .open .dropdown-toggle.btn-xl {
-  color: #6248d7;
+  color: #784df5;
   background-color: white;
   border: 3px solid white;
 
@@ -565,7 +565,7 @@ margin-right: 0px;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
-  color: #6248d7 !important;
+  color: #784df5 !important;
   background-color: white;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
@@ -1037,7 +1037,7 @@ height: auto;
 }
 
 section#orga .form-control:focus {
-  border-color: #6248d7;
+  border-color: #784df5;
   box-shadow: none;
 }
 
@@ -1132,7 +1132,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #6248d7;
+  background-color: #784df5;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -1303,8 +1303,8 @@ letter-spacing: normal !important;
   .btn-testou {
 
 
-    color: #6248d7 !important;
-    border: 1px solid #6248d7;
+    color: #784df5 !important;
+    border: 1px solid #784df5;
 
   }
 }
@@ -1324,8 +1324,8 @@ letter-spacing: normal !important;
 
 .navbar-custom.affix .btn-testou {
 
-  color: #6248d7 !important;
-  border: 1px solid #6248d7;
+  color: #784df5 !important;
+  border: 1px solid #784df5;
 
 }
 
@@ -1354,8 +1354,8 @@ border-spacing: 5px;
 .btn-testou2 {
 color: white !important;
 margin-right: 10px;
-background-color: #6248d7;
-border: 1px solid #6248d7;
+background-color: #784df5;
+border: 1px solid #784df5;
 border-radius: 6px;
 border-spacing: 5px;
 -webkit-transition: 0.3s;
