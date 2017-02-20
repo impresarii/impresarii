@@ -33,7 +33,7 @@ body {
   margin-bottom: 20px;
 }
 .text-muted-violet {
-  color:#6248d7;
+  color:#7c25f8;
 }
 
 .text-muted-violet-clair {
@@ -61,7 +61,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #6248d7;
+  color: #7c25f8;
 }
 a:hover,
 a:focus,
@@ -106,7 +106,7 @@ h6 {
 }
 
 .bg-home {
-  background-color: #6248d7;
+  background-color: #7c25f8;
    background: -webkit-linear-gradient(50deg, rgba(255,65,105,0.5), rgba(124,38,248,0.5)); /* For Safari 5.1 to 6.0 */
    background: -o-linear-gradient(50deg, rgba(255,65,105,0.5), rgba(124,38,248,0.5)); /* For Opera 11.1 to 12.0 */
    background: -moz-linear-gradient(50deg, rgba(255,65,105,0.5), rgba(124,38,248,0.5)); /* For Firefox 3.6 to 15 */
@@ -114,14 +114,14 @@ h6 {
 }
 
 .bg-violet {
-  background-color: #6248d7;
-   background: -webkit-linear-gradient(left top, #6248d7, #917deb); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(bottom right, #6248d7, #917deb); /* For Opera 11.1 to 12.0 */
-   background: -moz-linear-gradient(bottom right, #6248d7, #917deb); /* For Firefox 3.6 to 15 */
-   background: linear-gradient(to bottom right, #6248d7, #917deb); /* Standard syntax */
+  background-color: #7c25f8;
+   background: -webkit-linear-gradient(left top, #7c25f8, #917deb); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(bottom right, #7c25f8, #917deb); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(bottom right, #7c25f8, #917deb); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(to bottom right, #7c25f8, #917deb); /* Standard syntax */
 }
 .bg-violet-no-gradient {
-  background-color: #6248d7;
+  background-color: #7c25f8;
 }
 .bg-bleu {
   background-color: #ffa146;
@@ -193,9 +193,9 @@ fieldset[disabled] .btn-primary.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   font-weight: 400;
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
   font-size: 15px;
   padding: 12px 20px;
   -webkit-transition: 0.5s;
@@ -208,7 +208,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-artiste:hover {
 
-  color: #6248d7 !important;
+  color: #7c25f8 !important;
   background-color: white;
 
 }
@@ -231,17 +231,17 @@ fieldset[disabled] .btn-primary.active {
 .btn-organisateur {
   color: white;
   text-transform: uppercase;
-  background-color: #6248d7;
-  border: 3px solid #6248d7;
+  background-color: #7c25f8;
+  border: 3px solid #7c25f8;
   position: relative;
   display: inline-block;
   margin-top: 50px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   font-weight: 400;
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
   font-size: 15px;
   padding: 12px 20px;
   -webkit-transition: 0.5s;
@@ -271,17 +271,17 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   color: white;
   text-transform: uppercase;
-  background-color: #6248d7 ;
-  border: 3px solid #6248d7 ;
+  background-color: #7c25f8 ;
+  border: 3px solid #7c25f8 ;
   position: relative;
   display: inline-block;
   margin-right: 5px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   font-weight: 400;
-  border-radius: 6px;
-  -webkit-border-radiuss: 3px;
-  -moz-border-radius: 6px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
   font-size: 15px;
   padding: 12px 20px;
   -webkit-transition: 0.3s;
@@ -297,17 +297,17 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl3 {
   color: white;
   text-transform: uppercase;
-  background-color: #6248d7;
-  border: 3px solid #6248d7;
+  background-color: #7c25f8;
+  border: 3px solid #7c25f8;
   position: relative;
   display: inline-block;
   margin-right: 5px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   font-weight: 400;
-  border-radius: 6px;
-  -webkit-border-radiuss: 3px;
-  -moz-border-radius: 6px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
   font-size: 15px;
   padding: 12px 20px;
   -webkit-transition: 0.3s;
@@ -357,7 +357,7 @@ margin-right: 0px;
 .btn-xl3:active,
 .btn-xl3.active,
 .open .dropdown-toggle.btn-xl {
-  color: #6248d7;
+  color: #7c25f8;
   background-color: white;
   border: 3px solid white
 
@@ -401,9 +401,9 @@ fieldset[disabled] .btn-xl.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   font-weight: 400;
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
   font-size: 15px;
   padding: 12px 20px;
   -webkit-transition: 0.3s;
@@ -420,7 +420,7 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl2:active,
 .btn-xl2.active,
 .open .dropdown-toggle.btn-xl {
-  color: #6248d7;
+  color: #7c25f8;
   background-color: white;
   border: 3px solid white;
 
@@ -452,9 +452,9 @@ margin-left: 0px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   font-weight: 400;
-  border-radius: 6px;
-  -webkit-border-radiuss: 3px;
-  -moz-border-radius: 6px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
   font-size: 15px;
   padding: 12px 20px;
   -webkit-transition: 0.3s;
@@ -482,7 +482,7 @@ margin-right: 0px;
 .btn-xl-vert:active,
 .btn-xl-vert.active,
 .open .dropdown-toggle.btn-xl {
-  color: #6248d7;
+  color: #7c25f8;
   background-color: white;
   border: 3px solid white;
 
@@ -572,7 +572,7 @@ margin-right: 0px;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
-  color: #6248d7 !important;
+  color: #7c25f8 !important;
   background-color: white;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
@@ -599,7 +599,7 @@ margin-right: 0px;
     transition: all 0.3s;
   }
   .navbar-custom .navbar-nav > .active > a {
-    border-radius: 6px;
+    border-radius: 12px;
   }
 }
 @media (min-width: 768px) {
@@ -1042,7 +1042,7 @@ height: auto;
 }
 
 section#orga .form-control:focus {
-  border-color: #6248d7;
+  border-color: #7c25f8;
   box-shadow: none;
 }
 
@@ -1137,7 +1137,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #6248d7;
+  background-color: #7c25f8;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -1291,7 +1291,7 @@ img::-moz-selection {
 color: white !important;
 background-color: transparent;
 border: 1px solid white;
-border-radius: 6px;
+border-radius: 12px;
 border-spacing: 5px;
 -webkit-transition: 0.3s;
 -moz-transition: 0.3s;
@@ -1308,8 +1308,8 @@ letter-spacing: normal !important;
   .btn-testou {
 
 
-    color: #6248d7 !important;
-    border: 1px solid #6248d7;
+    color: #7c25f8 !important;
+    border: 1px solid #7c25f8;
 
   }
 }
@@ -1329,8 +1329,8 @@ letter-spacing: normal !important;
 
 .navbar-custom.affix .btn-testou {
 
-  color: #6248d7 !important;
-  border: 1px solid #6248d7;
+  color: #7c25f8 !important;
+  border: 1px solid #7c25f8;
 
 }
 
@@ -1339,7 +1339,7 @@ border: none;
 color: white !important;
 background-color: #00cf70!important;
 border: 1px solid #00cf70 !important;
-border-radius: 6px;
+border-radius: 12px;
 border-spacing: 5px;
 
 }
@@ -1349,7 +1349,7 @@ border: none;
 color: white !important;
 background-color: #00cf70  !important;
 border: 1px solid #00cf70 !important;
-border-radius: 6px;
+border-radius: 12px;
 border-spacing: 5px;
 
 }
@@ -1359,9 +1359,9 @@ border-spacing: 5px;
 .btn-testou2 {
 color: white !important;
 margin-right: 10px;
-background-color: #6248d7;
-border: 1px solid #6248d7;
-border-radius: 6px;
+background-color: #7c25f8;
+border: 1px solid #7c25f8;
+border-radius: 12px;
 border-spacing: 5px;
 -webkit-transition: 0.3s;
 -moz-transition: 0.3s;
@@ -1380,7 +1380,7 @@ border: none;
 color: white !important;
 background-color: #8b71ff;
 border: 1px solid #8b71ff;
-border-radius: 6px;
+border-radius: 12px;
 border-spacing: 5px;
 
 }
@@ -1417,7 +1417,7 @@ margin-top: -25px
  .form-line{
      padding-top:12px;
      padding-bottom:12px;
-     border-radius: 6px;
+     border-radius: 12px;
  }
 
 .form-textbox {
@@ -1425,9 +1425,9 @@ background-color:  #d9cbff;
 border: none;
 height: 30px;
 max-width: 66% !important;
--webkit-border-radius: 6px;
--moz-border-radius: 6px;
-border-radius: 6px;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+border-radius: 12px;
 -webkit-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
 box-shadow: 0px 2px 10px 3px rgba(0, 0, 0, 0.1);
