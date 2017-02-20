@@ -707,11 +707,26 @@ li[data-type="control_image"] img {
       setTimeout(function() {
           $('input_6').hint('ex: monemail@email.com');
        }, 20);
-      JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","email":"Enter a valid e-mail address","incompleteFields":"There are incomplete required fields. Please complete them.","lessThan":"Your score should be less than","numeric":"This field can only contain numeric values","pleaseWait":"Please wait...","required":"This field is required.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
+      JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","confirmEmail":"E-mail does not match","email":"Enter a valid e-mail address","incompleteFields":"There are incomplete required fields. Please complete them.","lessThan":"Your score should be less than","numeric":"This field can only contain numeric values","pleaseWait":"Patientez..","required":"This field is required.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
 	JotForm.clearFieldOnHide="disable";
 	JotForm.onSubmissionError="jumpToFirstError";
    });
 </script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1868727536674731'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1868727536674731&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
 </head>
 <body>
 <form class="jotform-form" action="https://submit.jotformeu.com/submit/70291221634347/" method="post" name="form_70291221634347" id="70291221634347" accept-charset="utf-8">
@@ -783,7 +798,7 @@ li[data-type="control_image"] img {
       <li class="form-line" data-type="control_button" id="id_11">
         <div id="cid_11" class="form-input-wide">
           <div style="text-align:left;" class="form-buttons-wrapper">
-            <button id="input_11" type="submit" class="form-submit-button" data-component="button">
+            <button id="input_11" type="submit" onClick="fbq('track', 'CompleteRegistration');" class="form-submit-button" data-component="button">
               J&#x27;EN SUIS !
             </button>
           </div>
