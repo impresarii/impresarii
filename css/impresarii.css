@@ -215,7 +215,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .btn-artiste  {
     padding:12px 15px;
     font-size:80%;
@@ -279,7 +279,7 @@ fieldset[disabled] .btn-primary.active {
   margin-right: 5px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 300;
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -305,7 +305,7 @@ fieldset[disabled] .btn-primary.active {
   margin-right: 5px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 300;
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -401,7 +401,7 @@ fieldset[disabled] .btn-xl.active {
   margin-left: 5px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 300;
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -452,7 +452,7 @@ margin-left: 0px;
   margin-right: 5px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 300;
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -717,7 +717,7 @@ h2.section-heading-newsletter {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
 
   h2.section-heading-newsletter {
       font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -725,7 +725,7 @@ h2.section-heading-newsletter {
       text-transform: none;
       font-size: 26px;
       padding-top: 20px;
-      margin top: 0;
+      margin-top: 30px;
       margin-bottom: 30px;
 
   }
