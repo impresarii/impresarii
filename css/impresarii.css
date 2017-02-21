@@ -33,6 +33,14 @@ body {
   font-weight: 500;
   margin-bottom: 20px;
 }
+.text-muted-news {
+  font-size: 10pt;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #efefef;
+  line-height: 16px !important;
+  font-family: "Open Sans";
+}
 .text-muted-violet {
   color:#7c25f8;
 }
