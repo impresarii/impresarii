@@ -269,8 +269,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-organisateur:hover {
 
   color: white;
-  background-color: #8b71ff;
-  border: 3px solid #8b71ff;
+  background-color: #6207e3;
+  border: 3px solid #6207e3;
 
 }
 
@@ -1393,9 +1393,9 @@ letter-spacing: normal !important;
 
 .btn-testou:hover {
 border: none;
-color: white !important;
-background-color: #6207e3;!important;
-border: 1px solid #6207e3; !important;
+color: #6207e3 !important;
+background-color: white;!important;
+border: 1px solid white; !important;
 border-radius: 18px;
 border-spacing: 5px;
 
@@ -1404,8 +1404,8 @@ border-spacing: 5px;
 .navbar-custom.affix .btn-testou:hover {
 border: none;
 color: white !important;
-background-color: #6207e3; !important;
-border: 1px solid #6207e3; !important;
+background-color: #7c25f8; !important;
+border: 1px solid #7c25f8; !important;
 border-radius: 18px;
 border-spacing: 5px;
 
