@@ -38,7 +38,6 @@ body {
   font-weight: 300;
   margin-bottom: 20px;
   color: #efefef;
-  line-height: 16px !important;
   font-family: "Open Sans";
 }
 .text-muted-violet {
@@ -750,6 +749,7 @@ h2.section-heading-newsletter {
       margin-bottom: 30px;
 
   }
+
 }
 section h3.section-subheading {
   font-size: 20px;
